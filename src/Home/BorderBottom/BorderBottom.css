@@ -1,0 +1,51 @@
+.borderBottom {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 20px;
+  align-items: center;
+  width: 65%;
+  border-radius: 8px;
+  margin: auto;
+  transform: translateY(-50%);
+  background-color: #304F47;
+}
+
+input::placeholder{
+  font-size: 13px;
+}
+
+.input input {
+  padding: 12px;
+  margin: 10px 0px;
+  max-width: 350px;
+  border-radius: 14px;
+}
+
+input:focus {
+  outline: none;
+}
+
+.options {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+select {
+  color: #fff;
+  background-color: inherit;
+  border: none;
+  font-size: 16px;
+}
+
+.option {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.option label {
+ color:#9A9AB0;
+  font-size: 12px;
+}

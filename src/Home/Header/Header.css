@@ -1,0 +1,10 @@
+.headerContainer h2 {
+  color: #C7923E;
+}
+
+.headerContainer h1 {
+  width: 500px;
+  word-break: normal;
+  text-align: center;
+  margin: auto;
+}

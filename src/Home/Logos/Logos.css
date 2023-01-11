@@ -1,0 +1,26 @@
+.logoWrapper {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 120px 0px;
+}
+
+.logoContainer {
+  height: 150px;
+  width: 250px;
+  background-color: #304f47;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logoText {
+  width: 202px;
+  word-break: normal;
+  text-align: center;
+  margin: 0 auto;
+  color: white;
+  font-size: 16px;
+}

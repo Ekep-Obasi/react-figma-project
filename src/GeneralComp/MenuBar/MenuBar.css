@@ -1,0 +1,41 @@
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 65px;
+  background-color: transparent;
+  width: 100%;
+}
+
+.logo {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  gap: 5px;
+}
+
+ul li {
+  padding: 5px;
+  margin: 0;
+  border-bottom: 3px solid transparent;
+ 
+}
+
+a {
+  color: #304F47;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+ul li:hover {
+  border-bottom-width: 12px;
+  border-bottom: 3px solid #304F47;
+}
